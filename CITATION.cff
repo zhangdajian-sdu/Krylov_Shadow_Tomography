@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or the accompanying numerical data, please cite the paper in preferred-citation."
+type: software
+title: "Krylov Shadow Tomography: Companion Code and Numerical Data"
+authors:
+  - family-names: Zhang
+    given-names: Da-Jian
+    orcid: "https://orcid.org/0000-0002-1291-3806"
+  - family-names: Tong
+    given-names: D. M.
+repository-code: "https://github.com/zhangdajian-sdu/Krylov_Shadow_Tomography"
+preferred-citation:
+  type: article
+  title: "Krylov Shadow Tomography: Efficient Estimation of Quantum Fisher Information"
+  authors:
+    - family-names: Zhang
+      given-names: Da-Jian
+      orcid: "https://orcid.org/0000-0002-1291-3806"
+    - family-names: Tong
+      given-names: D. M.
+  journal: Physical Review Letters
+  volume: "134"
+  issue: "11"
+  start: "110802"
+  year: 2025
+  doi: "10.1103/PhysRevLett.134.110802"
+  url: "https://doi.org/10.1103/PhysRevLett.134.110802"

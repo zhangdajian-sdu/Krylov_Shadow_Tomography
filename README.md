@@ -1,6 +1,10 @@
 # Krylov shadow tomography: Efficient estimation of quantum Fisher information
 
-This repository is a companion to the research paper with the same title (which will be posted on arXiv soon).
+This repository contains the code and numerical data accompanying the published paper:
+
+> Da-Jian Zhang and D. M. Tong, **Krylov Shadow Tomography: Efficient Estimation of Quantum Fisher Information**, *Physical Review Letters* **134**, 110802 (2025).
+
+[Published article](https://doi.org/10.1103/PhysRevLett.134.110802) | [arXiv:2503.01697](https://arxiv.org/abs/2503.01697)
 
 # Structure of this repository
 
@@ -25,3 +29,26 @@ Apart from some commonly used packages, e.g., `numpy`, `json`, `itertools`, `mat
 - The package `qutip` should be installed. See [this website](https://qutip.readthedocs.io/en/qutip-5.0.x/installation.html) for guidance.
 
 - The package `scikit-learn` should be installed. See [this website](https://scikit-learn.org/1.5/install.html) for guidance.
+
+# Citation
+
+If you use this code or the accompanying numerical data in your research, please cite:
+
+```bibtex
+@article{Zhang2025KrylovShadowTomography,
+  author = {Zhang, Da-Jian and Tong, D. M.},
+  title = {Krylov Shadow Tomography: Efficient Estimation of Quantum Fisher Information},
+  journal = {Physical Review Letters},
+  volume = {134},
+  number = {11},
+  pages = {110802},
+  year = {2025},
+  doi = {10.1103/PhysRevLett.134.110802},
+  url = {https://doi.org/10.1103/PhysRevLett.134.110802},
+  eprint = {2503.01697},
+  archivePrefix = {arXiv},
+  primaryClass = {quant-ph}
+}
+```
+
+The repository's [CITATION.cff](CITATION.cff) also identifies this paper as the preferred citation.
